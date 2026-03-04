@@ -5,27 +5,37 @@
     android:orientation="vertical">
 
     <LinearLayout
+        android:id="@+id/topbar"
         android:layout_width="match_parent"
-        android:layout_height="52dp"
+        android:layout_height="54dp"
         android:orientation="horizontal"
         android:gravity="center_vertical"
         android:paddingStart="12dp"
-        android:paddingEnd="12dp">
+        android:paddingEnd="10dp">
 
         <TextView
-            android:id="@+id/title"
+            android:id="@+id/tvTitle"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="CodeDroidX"
-            android:textSize="16sp"
-            android:textStyle="bold" />
+            android:textStyle="bold"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/tvLang"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TEXT"
+            android:textSize="12sp"
+            android:padding="8dp" />
 
         <TextView
             android:id="@+id/btnOpen"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="OPEN"
+            android:textStyle="bold"
             android:padding="10dp" />
 
         <TextView
@@ -33,6 +43,15 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="SAVE"
+            android:textStyle="bold"
+            android:padding="10dp" />
+
+        <TextView
+            android:id="@+id/btnJson"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="JSON"
+            android:textStyle="bold"
             android:padding="10dp" />
     </LinearLayout>
 
