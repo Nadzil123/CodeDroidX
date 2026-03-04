@@ -1,0 +1,12 @@
+\
+    {
+      "name": "Lua",
+      "scopeName": "source.lua",
+      "patterns": [
+        { "name": "comment.line.lua", "match": "--.*$" },
+        { "name": "string.quoted.double.lua", "begin": "\"", "end": "\"", "patterns": [ { "match": "\\\\." } ] },
+        { "name": "string.quoted.single.lua", "begin": "'", "end": "'", "patterns": [ { "match": "\\\\." } ] },
+        { "name": "constant.numeric.lua", "match": "\\b\\d+(\\.\\d+)?\\b" },
+        { "name": "keyword.control.lua", "match": "\\b(and|break|do|else|elseif|end|false|for|function|if|in|local|nil|not|or|repeat|return|then|true|until|while)\\b" }
+      ]
+    }

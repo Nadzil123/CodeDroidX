@@ -1,0 +1,15 @@
+{
+  "name": "CodeDroid Dark",
+  "type": "dark",
+  "colors": {
+    "editor.background": "#0B0F17",
+    "editor.foreground": "#D6E1FF"
+  },
+  "tokenColors": [
+    { "scope": ["comment"], "settings": { "foreground": "#6B7A99" } },
+    { "scope": ["string"],  "settings": { "foreground": "#9AE6B4" } },
+    { "scope": ["keyword"], "settings": { "foreground": "#7AA2FF" } },
+    { "scope": ["constant.numeric"], "settings": { "foreground": "#F6C177" } },
+    { "scope": ["constant.language"], "settings": { "foreground": "#FF7AA2" } }
+  ]
+}

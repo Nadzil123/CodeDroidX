@@ -1,0 +1,11 @@
+{
+  "languages": [
+    { "id": "lua",  "scopeName": "source.lua",  "extensions": [".lua", ".luau"] },
+    { "id": "json", "scopeName": "source.json", "extensions": [".json"] }
+  ],
+  "grammars": [
+    { "language": "lua",  "scopeName": "source.lua",  "path": "grammars/lua.tmLanguage.json" },
+    { "language": "json", "scopeName": "source.json", "path": "grammars/json.tmLanguage.json" }
+  ],
+  "theme": { "path": "themes/codedroid-dark.json" }
+}
